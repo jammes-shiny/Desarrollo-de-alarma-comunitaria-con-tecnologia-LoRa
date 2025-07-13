@@ -7,7 +7,7 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-// === XOR PRIVACY ===
+// ===PRIVACY===
 const byte xorKey = 000;
 
 void xorDecrypt(char* data, byte key) {
