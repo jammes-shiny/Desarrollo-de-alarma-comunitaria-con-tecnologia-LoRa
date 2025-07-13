@@ -3,7 +3,7 @@
 #include <Wire.h>
 #include <DHT.h>
 
-// ---------- PRIVACIDAD BÁSICA ----------
+// ---------- PRIVACIDAD----------
 const byte xorKey = 000;  
 
 void xorEncrypt(char* data, byte key) {
